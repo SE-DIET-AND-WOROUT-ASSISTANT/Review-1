@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet And Workout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+   <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close" oneclick = "hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="diet.html">DIETS</a></li>
+                <li><a href="workout.html">WORKOUTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" oneclick="showMenu()"></i>
+    </nav>
+     <h1>Our Workouts</h1>
+   </section>
+
+<!----------------workout page content----------->
+
+<section class="workout-content">
+    <div class="row">
+        <div class="workout-left">
+            <img src="images/download.jpg">
+            <h2>Effective workout training</h2>
+            <p>Exercise variation is an important factor when designing an exercise program, with many benefits when you change exercises every so often, such as increased performance and decreased injury risk.
+            </p>
+            <br>
+            <p> Regular physical activity can improve your muscle strength and boost your endurance. Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work more efficiently. And when your heart and lung health improve, you have more energy to tackle daily chores.
+            </p>
+            <br>
+            <p> Regular physical activity can help you fall asleep faster, get better sleep and deepen your sleep. Just don't exercise too close to bedtime, or you may be too energized to go to sleep.
+            </p>
+            <br>
+            <p>Exercise and physical activity can be enjoyable. They give you a chance to unwind, enjoy the outdoors or simply engage in activities that make you happy. Physical activity can also help you connect with family or friends in a fun social setting.
+            </p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT
+                    </button>
+                </form>
+            </div>
+
+        </div>
+        <div class="workout-right">
+            <h3>Workout programs</h3>
+            <div>
+                <a href="">
+                <span>Extreme Workout For Weight Loss</span></a>
+            </div>
+            <div>
+                <a href="">
+                <span>Workout For Weight Gain</span></a>
+            </div>
+            <div>
+                <a href="">
+                <span>Ab Workouts</span>
+            </a>
+            </div>
+            
+            <div>
+                <a href="">
+                <span>Cardio</span></a>
+            </div>
+            <div>
+                <a href="">
+                <span>Bicep Workouts</span></a>
+            </div>
+            <div>
+                <a href="">
+                <span>Functional Training</span></a>
+            </div>
+            <div>
+                <a href="">
+                <span>Aerobics</span></a>
+            </div>
+            <div>
+                <a href="">
+                <span>Yoga</span></a>
+            </div>
+            <div>
+                <a href="">
+                <span>Zumba</span></a>
+            </div>
+            <div>
+                <a href="">
+                <span>Legs</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Have any feedback for us or want to know what's the upcoming feature ? That's great! <br> Post us an comment and we will get back to you as soon as possible!
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+   <!--------JavaScriptScript for toggle Menu---------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
